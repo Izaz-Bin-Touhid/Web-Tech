@@ -1,0 +1,74 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#field{
+    border: 2px solid rgb(102, 52, 148);
+    border-radius: 10px;
+    background-color: rgb(250, 251, 251);
+    margin: 30px;
+    width:600px;
+
+    }
+
+#legend{
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid rgb(102, 52, 148);
+    border-radius: 10px;
+    background-color: rgb(102, 52, 148);
+    color: white;
+    padding: 8px 14px;
+}
+
+#td1,#td2,#td3{
+    font-weight:600;
+}
+
+#name,#email, #pass{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(234, 226, 226);
+}
+
+#pass, #age,#date,#phone{
+     width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(234, 226, 226);
+}
+
+#btn1{
+    position: absolute;
+    left: 200px;
+    padding: 5px 25px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(102, 52, 148);
+    border: none;
+    height: 38px;
+    width: 120px;
+    border-radius: 5px;
+}
+#btn2{
+    position: relative;
+    left: 320px;
+    padding: 5px 25px;
+    font-weight: bold;
+    color: rgb(31, 30, 30);
+    background-color: rgb(199, 195, 204);
+    border: none;
+    height: 38px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.left{
+    display:flex;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+
